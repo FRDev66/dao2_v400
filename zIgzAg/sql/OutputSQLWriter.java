@@ -4,7 +4,7 @@
 
 
 
-package zIgzAg.sql;
+package dao2.sql;
 
 import java.util.HashMap;
 import java.util.Map;

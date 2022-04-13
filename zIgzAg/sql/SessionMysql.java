@@ -3,7 +3,7 @@
 // Use is subject to license terms.
 
 
-package zIgzAg.sql;
+package dao2.sql;
 
 import java.sql.DriverManager;
 import java.sql.Connection;

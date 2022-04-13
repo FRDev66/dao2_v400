@@ -4,7 +4,7 @@
 
 
 
-package zIgzAg.sql;
+package dao2.sql;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

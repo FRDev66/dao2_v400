@@ -2,7 +2,7 @@
 // Copyright 2001 Julien Buret All Rights Reserved.
 // Use is subject to license terms.
 
-package zIgzAg.sql;
+package dao2.sql;
 
 import java.sql.DriverManager;
 import java.sql.Connection;
