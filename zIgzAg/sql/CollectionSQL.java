@@ -2,7 +2,7 @@
 // Copyright 2001 Julien Buret All Rights Reserved.
 // Use is subject to license terms.
 
-package dao2.sql;
+package zIgzAg.sql;
 
 import java.io.Serializable;
 

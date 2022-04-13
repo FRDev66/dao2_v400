@@ -8,8 +8,8 @@ package zIgzAg.jeu.dao2;
 
 
 
-import dao2.html.BaliseHTML;
-import dao2.html.DocumentHTML;
+import zIgzAg.html.BaliseHTML;
+import zIgzAg.html.DocumentHTML;
 
 
 public class SecteursAtlas

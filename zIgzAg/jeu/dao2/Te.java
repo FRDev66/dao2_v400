@@ -13,7 +13,7 @@ import java.awt.geom.*;
 import java.awt.event.*;
 import java.io.*;
 import java.awt.image.*;
-import java.util.*;
+ import java.util.*;
 
  public class Te extends Frame  {
      static int G;

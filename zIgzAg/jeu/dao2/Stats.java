@@ -17,9 +17,9 @@ import java.util.HashMap;
 import java.util.Comparator;
 import java.util.Locale;
 
-import dao2.utile.Mdt;
-import dao2.html.BaliseHTML;
-import dao2.html.DocumentHTML;
+import zIgzAg.utile.Mdt;
+import zIgzAg.html.BaliseHTML;
+import zIgzAg.html.DocumentHTML;
 
 import java.util.NoSuchElementException;
 

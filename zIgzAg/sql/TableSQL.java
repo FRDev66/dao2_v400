@@ -4,7 +4,7 @@
 
 
 
-package dao2.sql;
+package zIgzAg.sql;
 
 import java.io.Serializable;
 import java.lang.reflect.Array;

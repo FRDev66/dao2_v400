@@ -10,7 +10,7 @@ package zIgzAg.jeu.dao2;
 
 
 
-import dao2.html.DocumentHTML;
+import zIgzAg.html.DocumentHTML;
 
 class temp{
 

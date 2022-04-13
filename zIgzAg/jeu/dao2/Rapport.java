@@ -6,9 +6,9 @@
 
 package zIgzAg.jeu.dao2;
 
-import dao2.html.DocumentHTML;
-import dao2.html.BaliseHTML;
-import dao2.utile.Copie;
+import zIgzAg.html.DocumentHTML;
+import zIgzAg.html.BaliseHTML;
+import zIgzAg.utile.Copie;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;

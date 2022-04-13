@@ -8,10 +8,10 @@ package zIgzAg.jeu.dao2;
 
 
 
-import dao2.utile.Fiche;
-import dao2.utile.Mdt;
-import dao2.collection.IntMap;
-import dao2.collection.IntHashMap;
+import zIgzAg.utile.Fiche;
+import zIgzAg.utile.Mdt;
+import zIgzAg.collection.IntMap;
+import zIgzAg.collection.IntHashMap;
 import java.lang.reflect.Field;
 import java.util.Collection;
 import java.util.Random;

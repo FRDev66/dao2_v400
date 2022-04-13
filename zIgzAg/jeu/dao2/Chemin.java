@@ -9,7 +9,7 @@ package zIgzAg.jeu.dao2;
 
 
 import java.io.File;
-import dao2.utile.Copie;
+import zIgzAg.utile.Copie;
 
 public class Chemin{
 

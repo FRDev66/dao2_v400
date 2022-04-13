@@ -15,11 +15,11 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.text.MessageFormat;
-import dao2.utile.Mdt;
-import dao2.html.BaliseHTML;
-import dao2.html.DocumentHTML;
-import dao2.collection.IntMap;
-import dao2.collection.IntHashMap;
+import zIgzAg.utile.Mdt;
+import zIgzAg.html.BaliseHTML;
+import zIgzAg.html.DocumentHTML;
+import zIgzAg.collection.IntMap;
+import zIgzAg.collection.IntHashMap;
 
 public class Combat{
 

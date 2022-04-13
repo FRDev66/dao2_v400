@@ -5,7 +5,7 @@
 
 
 
-package dao2.utile;
+package zIgzAg.utile;
 
 import java.io.*;
 import java.util.zip.*;

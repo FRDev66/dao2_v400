@@ -10,7 +10,7 @@ package zIgzAg.jeu.dao2;
 
 import java.io.Serializable;
 import java.util.Locale;
-import dao2.utile.Mdt;
+import zIgzAg.utile.Mdt;
 
 public abstract class ObjetTransporte implements Serializable,Cloneable{
 

@@ -7,7 +7,7 @@
 package zIgzAg.jeu.dao2;
 
 
-import dao2.utile.Mdt;
+import zIgzAg.utile.Mdt;
 import java.io.Serializable;
 import java.util.Locale;
 import java.util.HashMap;
