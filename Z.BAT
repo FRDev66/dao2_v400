@@ -1,0 +1,1 @@
+java -Xmx200m -Xms200m -classpath classes;api/mail.jar;api/activation.jar;api/mysql.jar; zIgzAg.jeu.oceane.Essai17

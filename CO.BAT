@@ -1,0 +1,1 @@
+javac -d classes -classpath .;api/mail.jar;api/activation.jar;api/mysql.jar; zIgzAg/jeu/dao2/*.java -XDignore.symbol.file -encoding utf-8

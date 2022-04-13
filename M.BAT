@@ -1,0 +1,1 @@
+java -Xmx200m -Xms200m -classpath classes;api/activation.jar;api/mysql.jar;api/javax.mail.jar;Dfile.encoding=UTF-8-jar; zIgzAg.jeu.oceane.Essai12
