@@ -10,7 +10,7 @@ package zIgzAg.jeu.dao2;
 
 import java.io.Serializable;
 import java.util.Locale;
-import zIgzAg.utile.Mdt;
+import dao2.utile.Mdt;
 
 public class Produit extends Technologie implements Serializable{
 

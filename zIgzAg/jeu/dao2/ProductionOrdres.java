@@ -8,11 +8,11 @@ package zIgzAg.jeu.dao2;
 
 
 
-import zIgzAg.html.DocumentHTML;
-import zIgzAg.html.BaliseHTML;
-import zIgzAg.utile.Fiche;
-import zIgzAg.utile.Mdt;
-import zIgzAg.utile.Mds;
+import dao2.html.DocumentHTML;
+import dao2.html.BaliseHTML;
+import dao2.utile.Fiche;
+import dao2.utile.Mdt;
+import dao2.utile.Mds;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
@@ -29,7 +29,7 @@ import java.sql.Connection;
 import java.sql.Statement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import zIgzAg.sql.SessionMysql;
+import dao2.sql.SessionMysql;
 
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.AddressException;

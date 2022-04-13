@@ -8,7 +8,7 @@ package zIgzAg.jeu.dao2;
 
 
 
-import zIgzAg.utile.Mdt;
+import dao2.utile.Mdt;
 import java.util.HashMap;
 import java.util.TreeMap;
 import java.util.Set;

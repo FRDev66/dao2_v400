@@ -6,7 +6,7 @@
 
 package zIgzAg.jeu.dao2;
 
-import zIgzAg.html.BaliseHTML;
+import dao2.html.BaliseHTML;
 
 
 public class RapportCombat{

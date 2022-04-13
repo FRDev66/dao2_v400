@@ -8,10 +8,10 @@ package zIgzAg.jeu.dao2;
 
 
 
-import zIgzAg.utile.Mail;
-import zIgzAg.utile.Mdt;
-import zIgzAg.utile.Copie;
-import zIgzAg.utile.Fiche;
+import dao2.utile.Mail;
+import dao2.utile.Mdt;
+import dao2.utile.Copie;
+import dao2.utile.Fiche;
 import java.text.MessageFormat;
 import java.io.File;
 

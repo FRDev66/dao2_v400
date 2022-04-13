@@ -9,7 +9,7 @@ package zIgzAg.jeu.dao2;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Locale;
-import zIgzAg.utile.Copie;
+import dao2.utile.Copie;
 import java.util.List;
 import java.util.ArrayList;
 import java.io.*;

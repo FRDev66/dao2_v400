@@ -17,10 +17,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Arrays;
 import java.lang.reflect.Method;
-import zIgzAg.utile.Fiche;
-import zIgzAg.utile.Mdt;
-import zIgzAg.utile.Mds;
-import zIgzAg.sql.SessionMysql;
+import dao2.utile.Fiche;
+import dao2.utile.Mdt;
+import dao2.utile.Mds;
+import dao2.sql.SessionMysql;
 
 public class ReceptionOrdres{
 

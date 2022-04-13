@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.Locale;
 import java.io.Serializable;
-import zIgzAg.utile.Fiche;
+import dao2.utile.Fiche;
 
 public class Vaisseau implements Serializable{
 

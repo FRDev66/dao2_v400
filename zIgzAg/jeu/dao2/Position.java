@@ -11,7 +11,7 @@ package zIgzAg.jeu.dao2;
 import java.io.Serializable;
 import java.util.Locale;
 import java.util.ArrayList;
-import zIgzAg.html.BaliseHTML;
+import dao2.html.BaliseHTML;
 
  public class Position implements Serializable,Comparable,Cloneable{
 

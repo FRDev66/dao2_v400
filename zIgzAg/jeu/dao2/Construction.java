@@ -9,7 +9,7 @@ package zIgzAg.jeu.dao2;
 
 
 import java.io.Serializable;
-import zIgzAg.utile.Mdt;
+import dao2.utile.Mdt;
 
 public class Construction implements Serializable{
 
