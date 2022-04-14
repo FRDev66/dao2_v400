@@ -501,9 +501,9 @@ public interface Const{
 /* public static final int[][] TAILLE_VAISSEAUX={{1,2,9},{3,4,8},{5,8,7},{9,20,6},{21,50,5},
          {51,100,4},{101,200,3},{201,500,2},{501,1000,1},{1001,1000000,0}};*/
  // -- ## feature/gestion-flotte/#2
- //public static final int[][] TAILLE_VAISSEAUX={{1,2,6},{3,4,6},{5,8,6},{9,20,6},{21,50,6},{51,100,6},{101,200,6},{201,500,6},{501,1000,6},{1001,1000000,6}}; -- Origin
- public static final int[][] TAILLE_VAISSEAUX={{1,2,3},{3,4,4},{5,8,5},{9,20,5},{21,50,5},
-         {51,100,6},{101,200,6},{201,500,7},{501,1000,7},{1001,1000000,6}};
+ public static final int[][] TAILLE_VAISSEAUX={{1,2,6},{3,4,6},{5,8,6},{9,20,6},{21,50,6},{51,100,6},{101,200,6},{201,500,6},{501,1000,6},{1001,1000000,6}}; // Origin
+ //public static final int[][] TAILLE_VAISSEAUX={{1,2,3},{3,4,4},{5,8,5},{9,20,5},{21,50,5},
+         //{51,100,6},{101,200,6},{201,500,7},{501,1000,7},{1001,1000000,6}};
  public static final int[][] TAILLE_VAISSEAUX_COMBAT={{1,2,9},{3,4,8},{5,8,7},{9,20,6},{21,50,5},
          {51,100,4},{101,200,3},{201,500,2},{501,1000,1},{1001,1000000,0}};
  //Les param�trages de la taille des vaisseaux(min nb cases,max nb cases,vitesse de base)

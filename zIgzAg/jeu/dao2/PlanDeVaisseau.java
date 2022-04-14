@@ -114,11 +114,12 @@ public class PlanDeVaisseau extends Produit implements Serializable{
   return 0;
   }
 
- public int getTailleCombat(){ //##############
-  for(int i=0;i<10;i++)
-   if ((Const.TAILLE_VAISSEAUX_COMBAT[i][0]<=nbCases)&&(Const.TAILLE_VAISSEAUX_COMBAT[i][1]>=nbCases)) return i;
-  return 0;
-  }
+
+ public int getTailleCombat(){ //############## 
+	 for(int i=0;i<10;i++) 
+		 if ((Const.TAILLE_VAISSEAUX_COMBAT[i][0]<=nbCases)&&(Const.TAILLE_VAISSEAUX_COMBAT[i][1]>=nbCases)) return i;
+ return 0; }
+	
   
  public boolean concepteurInconnu(){if(concepteurNum==-1) return true; else return false;}
  public boolean marqueInconnue(){if(marque==null) return true; else return false;}
@@ -150,7 +151,6 @@ public class PlanDeVaisseau extends Produit implements Serializable{
    if(nbBouc>Const.NB_BOUCLIERS_MAX) return com.ajouterErreur("ER_PLAN_DE_VAISSEAU_0002",cod);
    //if(nbModCons>Const.NB_NAVIRE_USINE_MAX) return com.ajouterErreur("ER_PLAN_DE_VAISSEAU_0003",cod);
    }
-
   return true;
   }
 
@@ -295,8 +295,8 @@ public class PlanDeVaisseau extends Produit implements Serializable{
    //if(possedeCaracteristiqueSpeciale(Const.COMPOSANT_CAPACITE_PROPULSION_INTRAGALACTIQUE,invalides))
     //return Const.BORNE_MAX;
   if(retour==0) return 0;
-   //else return retour+Const.TAILLE_VAISSEAUX[getTaille()][2];
-   else return retour+Const.TAILLE_VAISSEAUX_COMBAT[getTailleCombat()][2];
+   else return retour+Const.TAILLE_VAISSEAUX[getTaille()][2];
+   //else return retour+Const.TAILLE_VAISSEAUX_COMBAT[getTailleCombat()][2];
   }
   
  public int getPorteeScannerSysteme(){

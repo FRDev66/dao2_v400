@@ -793,15 +793,15 @@ import java.io.*;
   };
 
   private static final Object[][] PLAN_RACIAUX={
-          {"Oswald Koenig",new String[]{"moteurV","bombeIV","cargoIV","bouclierIII","scanV","hscanIII","dmineIV"},new int[]{1,20,5,1,1,1,1},"Galion Stellaire","Koenig Corporation",new Integer(0)},
+      {"Oswald Koenig",new String[]{"moteurV","bombeIV","cargoIV","bouclierIII","scanV","hscanIII","dmineIV"},new int[]{1,20,5,1,1,1,1},"Galion Stellaire","Koenig Corporation",new Integer(0)},
 	  {"Yynn Fendragon",new String[]{"moteurI","laserV","missV"},new int[]{1,2,1},"Chasseur Faucon","Faerie Technologie",new Integer(1)},
 	  {"Yynn Fendragon",new String[]{"moteurIII","laserV","missVI"},new int[]{1,3,6},"Goelette Phoenix","Faerie Technologie",new Integer(1)},
-          {"Techno-Prêtre Thorgrim",new String[]{"moteurIV","cargoV","bouclierV","scanIII","dmineIII"},new int[]{1,10,1,1,1},"Super Tanker Goliath II","Iron Forge Mechanicus",new Integer(2)},
-          {"inconnu",new String[]{"moteurIII","laserV","plasmaV","torpV","bouclierIV","scanIII","hscanIII","dmineIV"},new int[]{1,18,18,18,2,1,1,1},"Super Cuirassier Tigre","Shinarii Industrie",new Integer(3)},
+      {"Techno-Prêtre Thorgrim",new String[]{"moteurIV","cargoV","bouclierV","scanIII","dmineIII"},new int[]{1,10,1,1,1},"Super Tanker Goliath II","Iron Forge Mechanicus",new Integer(2)},
+      {"inconnu",new String[]{"moteurIII","laserV","plasmaV","torpV","bouclierIV","scanIII","hscanIII","dmineIV"},new int[]{1,18,18,18,2,1,1,1},"Super Cuirassier Tigre","Shinarii Industrie",new Integer(3)},
 	  {"Gutzmek Mekano",new String[]{"moteurI","laserV","bombeV"},new int[]{1,2,1},"Chassa Bomba","Kosmos Uzine-Hulk",new Integer(4)},
 	  {"Zodgrod Mekano",new String[]{"moteurII","bombeV"},new int[]{1,15},"Balaiz Wizz Bomba","Kosmos Uzine-Hulk",new Integer(4)},
-          {"As leth",new String[]{"moteurI","plasmaV"},new int[]{1,1},"Intercepteur Vipere","Corporation Seth",new Integer(5)},
-          {"As leth",new String[]{"moteurII","cargoIII","scanIV","dmineII","bscanV","lmineIV","tractI"},new int[]{1,10,1,1,1,1,1},"Caboteur Lourd Corsair","Corporation Seth",new Integer(5)},
+      {"As leth",new String[]{"moteurI","plasmaV"},new int[]{1,1},"Intercepteur Vipere","Corporation Seth",new Integer(5)},
+      {"As leth",new String[]{"moteurII","cargoIII","scanIV","dmineII","bscanV","lmineIV","tractI"},new int[]{1,10,1,1,1,1,1},"Caboteur Lourd Corsair","Corporation Seth",new Integer(5)},
   };
 
   public static void initialisation(){
@@ -821,6 +821,7 @@ import java.io.*;
    	 for(int j=0;j<s.length;j++)
    	  neutre.ajouterTechnologieConnue(s[j]);
    }
+   
    neutre.ajouterTechnologieConnue("moteurI");
    neutre.ajouterTechnologieConnue("laserI");
    neutre.ajouterTechnologieConnue("torpI");
@@ -830,33 +831,33 @@ import java.io.*;
    neutre.ajouterTechnologieConnue("hscanI");
    neutre.ajouterTechnologieConnue("scanI");
    neutre.ajouterTechnologieConnue("cargoI");
-   /*neutre.ajouterTechnologieConnue("moteurV");
-   neutre.ajouterTechnologieConnue("bombeIV");
-   neutre.ajouterTechnologieConnue("cargoIV");
-   neutre.ajouterTechnologieConnue("bouclierIII");
-   neutre.ajouterTechnologieConnue("scanV");
-   neutre.ajouterTechnologieConnue("hscanIII");
-   neutre.ajouterTechnologieConnue("dmineIV");
-   neutre.ajouterTechnologieConnue("laserV");
-   neutre.ajouterTechnologieConnue("missV");
-   neutre.ajouterTechnologieConnue("moteurIII");
-   neutre.ajouterTechnologieConnue("missVI");
-   neutre.ajouterTechnologieConnue("moteurIV");
-   neutre.ajouterTechnologieConnue("cargoV");
-   neutre.ajouterTechnologieConnue("bouclierV");
-   neutre.ajouterTechnologieConnue("scanIII");
-   neutre.ajouterTechnologieConnue("dmineIII");
-   neutre.ajouterTechnologieConnue("plasmaV");
-   neutre.ajouterTechnologieConnue("torpV");
-   neutre.ajouterTechnologieConnue("bouclierIV");
-   neutre.ajouterTechnologieConnue("bombeV");
-   neutre.ajouterTechnologieConnue("moteurII");
-   neutre.ajouterTechnologieConnue("cargoIII");
-   neutre.ajouterTechnologieConnue("scanIV");
-   neutre.ajouterTechnologieConnue("dmineII");
-   neutre.ajouterTechnologieConnue("bscanV");
-   neutre.ajouterTechnologieConnue("lmineIV");
-   neutre.ajouterTechnologieConnue("tractI");*/
+//   neutre.ajouterTechnologieConnue("moteurV");
+//   neutre.ajouterTechnologieConnue("bombeIV");
+//   neutre.ajouterTechnologieConnue("cargoIV");
+//   neutre.ajouterTechnologieConnue("bouclierIII");
+//   neutre.ajouterTechnologieConnue("scanV");
+//   neutre.ajouterTechnologieConnue("hscanIII");
+//   neutre.ajouterTechnologieConnue("dmineIV");
+//   neutre.ajouterTechnologieConnue("laserV");
+//   neutre.ajouterTechnologieConnue("missV");
+//   neutre.ajouterTechnologieConnue("moteurIII");
+//   neutre.ajouterTechnologieConnue("missVI");
+//   neutre.ajouterTechnologieConnue("moteurIV");
+//   neutre.ajouterTechnologieConnue("cargoV");
+//   neutre.ajouterTechnologieConnue("bouclierV");
+//   neutre.ajouterTechnologieConnue("scanIII");
+//   neutre.ajouterTechnologieConnue("dmineIII");
+//   neutre.ajouterTechnologieConnue("plasmaV");
+//   neutre.ajouterTechnologieConnue("torpV");
+//   neutre.ajouterTechnologieConnue("bouclierIV");
+//   neutre.ajouterTechnologieConnue("bombeV");
+//   neutre.ajouterTechnologieConnue("moteurII");
+//   neutre.ajouterTechnologieConnue("cargoIII");
+//   neutre.ajouterTechnologieConnue("scanIV");
+//   neutre.ajouterTechnologieConnue("dmineII");
+//   neutre.ajouterTechnologieConnue("bscanV");
+//   neutre.ajouterTechnologieConnue("lmineIV");
+//   neutre.ajouterTechnologieConnue("tractI");
      
    setCommandant(neutre);
 
@@ -870,7 +871,7 @@ import java.io.*;
 	     inter.add(comp[j]);
 	   comp=(String[])inter.toArray(new String[0]);
 
-	   if(!PlanDeVaisseau.verificationConformite(neutre,comp,(String)PLAN_DEPART[i][3])){
+	   if(PlanDeVaisseau.verificationConformite(neutre,comp,(String)PLAN_DEPART[i][3])){
 	    System.out.println("erreur : le plan "+PLAN_DEPART[i][3]+" n'est pas valide ");
 	    break;
 		}
@@ -896,7 +897,7 @@ import java.io.*;
 	     inter.add(comp[j]);
 	   comp=(String[])inter.toArray(new String[0]);
 
-	   if(!PlanDeVaisseau.verificationConformite(neutre,comp,(String)PLAN_RACIAUX[i][3])){
+	   if(PlanDeVaisseau.verificationConformite(neutre,comp,(String)PLAN_RACIAUX[i][3])){
 	    System.out.println("erreur : le plan "+PLAN_RACIAUX[i][3]+" n'est pas valide ");
 		}
 

@@ -1,1 +1,1 @@
-java -classpath classes -Xmx200m -Xms200m zIgzAg.jeu.oceane.Gala 0
+java -classpath classes -Xmx200m -Xms200m zIgzAg.jeu.dao2.Gala 0
