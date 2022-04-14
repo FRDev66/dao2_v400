@@ -871,7 +871,7 @@ import java.io.*;
 	     inter.add(comp[j]);
 	   comp=(String[])inter.toArray(new String[0]);
 
-	   if(PlanDeVaisseau.verificationConformite(neutre,comp,(String)PLAN_DEPART[i][3])){
+	   if(!PlanDeVaisseau.verificationConformite(neutre,comp,(String)PLAN_DEPART[i][3])){
 	    System.out.println("erreur : le plan "+PLAN_DEPART[i][3]+" n'est pas valide ");
 	    break;
 		}
@@ -897,7 +897,7 @@ import java.io.*;
 	     inter.add(comp[j]);
 	   comp=(String[])inter.toArray(new String[0]);
 
-	   if(PlanDeVaisseau.verificationConformite(neutre,comp,(String)PLAN_RACIAUX[i][3])){
+	   if(!PlanDeVaisseau.verificationConformite(neutre,comp,(String)PLAN_RACIAUX[i][3])){
 	    System.out.println("erreur : le plan "+PLAN_RACIAUX[i][3]+" n'est pas valide ");
 		}
 

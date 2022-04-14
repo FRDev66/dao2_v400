@@ -1,0 +1,8 @@
+14-04-2022 21:41:16 Ouverture session  : Initialisation d'un univers
+14-04-2022 21:41:16 Sauvegarde session : Initialisation d'un univers
+14-04-2022 21:41:32 Ouverture session  : Initialisation d'un univers
+14-04-2022 21:41:33 Sauvegarde session : Initialisation d'un univers
+14-04-2022 21:41:42 Ouverture session  : Initialisation d'un univers
+14-04-2022 21:41:43 Sauvegarde session : Initialisation d'un univers
+14-04-2022 21:43:05 Ouverture session  : Initialisation d'un univers
+14-04-2022 21:43:06 Sauvegarde session : Initialisation d'un univers
