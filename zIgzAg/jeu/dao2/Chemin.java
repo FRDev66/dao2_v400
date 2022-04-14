@@ -18,7 +18,7 @@ public class Chemin{
  //public static final String RACINE="c:/o2/Univers/";
 // public static final String RACINE="D:/JEU/dao2_v4/Univers/";
  //public static final String RACINE="D:/DEV/dao2_v4_vdev/Univers/";
- public static final String RACINE="D:/DAO2_DEV/01_dev/dao2_v400/Univers";
+ public static final String RACINE="D:/DAO2_DEV/01_dev/dao2_v400/Univers/";
   //le repertoire où on va tout ranger.
 
  public static final String CARNET_DE_BORD=RACINE+"carnet.txt";
